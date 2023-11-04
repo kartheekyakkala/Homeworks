@@ -1,4 +1,3 @@
-import Name;
 public class CollegeStudent extends Student
 {
     private int year; // year of graduation
@@ -49,7 +48,7 @@ public class CollegeStudent extends Student
     public String getDegree(){
         return degree;
     }
-    /
+    
     public String toString ()
     {
         return super.toString () + ", " + degree + ", " + year;
